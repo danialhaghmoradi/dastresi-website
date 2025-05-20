@@ -1,0 +1,296 @@
+{
+  "header": [
+    {
+      "id": 1,
+      "name": "باشگاه مشتریان",
+      "link": "../clubCustomers.html"
+    },
+    {
+      "id": 2,
+      "name": "بلاگ",
+      "link": "../blog.html"
+    },
+    {
+      "id": 3,
+      "name": "ارتباط با ما",
+      "link": "../contact.html"
+    },
+    {
+      "id": 4,
+      "name": "درباره ما",
+      "link": "../aboutUs.html"
+    }
+  ],
+  "menu": [
+    {
+      "id": 1,
+      "title": "خانه",
+      "slug": "home"
+    },
+    {
+      "id": 2,
+      "title": "لوازم جانبی موبایل و کامپیوتر",
+      "slug": "mobile-computer-accessories",
+      "children": [
+        {
+          "id": 1,
+          "title": "هولدر و نگهدارنده",
+          "slug": "Holder-and-retainer"
+        },
+        {
+          "id": 2,
+          "title": "تجهیزات ذخیره سازی",
+          "slug": "Storage-equipment",
+          "childre": [
+            { "id": 1, "titl": "فلش مموری", "slug": "memory-flash" },
+            { "id": 2, "titl": "کارت حافظه", "slug": "Memory-card" },
+            { "id": 3, "titl": "هارد اکسترنال", "slug": "External-hard-drive" }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "ماوس و کیبود و پدموس",
+          "slug": "Mouse-keyboard-mousepad"
+        },
+        {
+          "id": 4,
+          "title": "هندزفری و هدست,میکروفون",
+          "slug": "headset-microphone",
+          "childern": [
+            {
+              "id": 1,
+              "title": "میکروفون",
+              "slug": "microphone"
+            },
+            {
+              "id": 2,
+              "title": "هندزفری سیم دار",
+              "slug": "hansfree"
+            },
+            {
+              "id": 3,
+              "title": "هدست سیم دار",
+              "slug": "headest"
+            },
+            {
+              "id": 4,
+              "title": "هدفون بلوتوث",
+              "slug": "headphone-bluetooth"
+            },
+            {
+              "id": 5,
+              "title": "هندزفری بلوتوث دو گوش",
+              "slug": "hansfree-bluetooth-twoears"
+            },
+            {
+              "id": 6,
+              "title": "هندزفری بلوتوث دورگردنی",
+              "slug": "hansfree-bluetooth-Neckcircumference"
+            },
+            {
+              "id": 7,
+              "title": "هندزفری بلوتوث تک گوش",
+              "slug": "hansfree-bluetooth-oneears"
+            }
+          ]
+        },
+        { "id": 6, "title": "پاور بانک و جامپ استارتر", "slug": "powerbank" },
+        { "id": 7, "title": "کابل شارژ", "slug": "Charging-cable" },
+        { "id": 8, "title": "آداپتور شارژر", "slug": "Charger-adapter" },
+        {
+          "id": 9,
+          "title": "دسته بازی و خنک کننده موبایل",
+          "slug": "gamepad-mobilecooling"
+        },
+        { "id": 10, "title": "انواع تبدیل برق", "slug": "" },
+        {
+          "id": 11,
+          "title": "کابل و دانگل انتقال تصویر",
+          "slug": "cable-dongle"
+        },
+        { "id": 12, "title": "انواع هاب", "slug": "hubs" },
+        {
+          "id": 13,
+          "title": "فن خننک کننده کامپیوتر",
+          "slug": "campouter-cooling"
+        },
+        { "id": 14, "title": "قاب و گلس", "slug": "frame" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "کابل-مبدل-رابط",
+      "slug": "cable-Converter-interface",
+      "children": [
+        {
+          "id": 1,
+          "title": "کابل hdmi",
+          "slug": ""
+        },
+        {
+          "id": 2,
+          "title": "کابل پرینتر",
+          "slug": "printer-cable"
+        },
+        {
+          "id": 3,
+          "title": "کابل هارد اکسترنال",
+          "slug": "external-hard-cable"
+        },
+        {
+          "id": 4,
+          "title": "انواع رابط و تبدیل",
+          "slug": "Types-interfaces-conversions"
+        },
+        {
+          "id": 5,
+          "title": "کابل aux",
+          "slug": "aux-cable"
+        },
+        {
+          "id": 6,
+          "title": "کابل 2 به 1 صدا",
+          "slug": "audio-cable"
+        },
+        {
+          "id": 7,
+          "title": "کابل اپتیکال",
+          "slug": "Optical cable"
+        },
+        {
+          "id": 8,
+          "title": "کابل و فیش otg",
+          "slug": "otg-cable"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "لوازم تولید محتوا",
+      "slug": "Content-production-equipment",
+      "children": [
+        {
+          "id": 1,
+          "title": "میکروفون",
+          "slug": "microphone"
+        },
+        {
+          "id": 2,
+          "title": "رینگ لایت و پایه",
+          "slug": "ring-light"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "لوازم شبکه",
+      "slug": "Networking-Equipment",
+      "children": [
+        {
+          "id": 1,
+          "titll": "مودم - روتر",
+          "title": "Modem router"
+        },
+        {
+          "id": 2,
+          "titll": "هاب شبکه",
+          "title": "Networking-hub"
+        },
+        {
+          "id": 3,
+          "titll": "مودم همراه",
+          "title": "Mobile modem"
+        },
+        {
+          "id": 4,
+          "titll": "لوازم جانبی",
+          "title": "Accessories"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "کنسول بازی و لوازم جانبی",
+      "slug": "Gameconsole-accessories",
+      "children": [
+        {
+          "id": 1,
+          "titll": "هندزفری و هدست",
+          "title": "Handsfree-headset"
+        },
+        {
+          "id": 2,
+          "titll": "دسته بازی",
+          "title": "Game-group"
+        },
+        {
+          "id": 3,
+          "titll": "موس و کیبورد",
+          "title": "Mouse-keyboard"
+        },
+        {
+          "id": 4,
+          "titll": "کیف",
+          "title": "bag"
+        },
+        {
+          "id": 5,
+          "titll": "کنسول",
+          "title": "console"
+        },
+        {
+          "id": 6,
+          "titll": "شارژر دسته بازی",
+          "title": "cable-gamegroup"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "لوازم خانگی و شخصی",
+      "slug": "Household-personal-appliances",
+      "children": [
+        {
+          "id": 1,
+          "titll": "انواع گجت های جذاب",
+          "title": "All-kinds-gadgets"
+        },
+        {
+          "id": 2,
+          "titll": "باتری و شارژر",
+          "title": "Battery-charger"
+        },
+        {
+          "id": 3,
+          "titll": "اندروید باکس و گیرنده دیجیتال",
+          "title": "Android-Box-Digital-Receiver"
+        },
+        {
+          "id": 4,
+          "titll": "آنتن رومیزی",
+          "title": "Desktop-anten"
+        },
+        {
+          "id": 5,
+          "titll": "مچ بند و ساعت بند هوشمند",
+          "title": "Wristband-smartwatch"
+        },
+        {
+          "id": 6,
+          "titll": "محصولات کمبو",
+          "title": "Combo-products"
+        },
+        {
+          "id": 7,
+          "titll": "رابط برق و usb",
+          "title": "usb-cable"
+        },
+        {
+          "id": 8,
+          "titll": "ام اف پلیر",
+          "title": "mf-player"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@layer base {
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+}
+@layer theme{
+
+}
+@font-face {
+    font-family: shabnam-medium;
+    src: url("../../public/fonts/Shabnam-Medium.eot") format("eot");
+    src: url("../../public/fonts/Shabnam-Medium.woff2") format("woff2");
+    src: url("../../public/fonts/Shabnam-Medium.woff") format("woff");
+    src: url("../../public/fonts/Shabnam-Medium.ttf") format("ttf");
+}
+@font-face {
+    font-family: shabnam-light;
+    src: url("../../public/fonts/Shabnam-Light.eot") format("eot");
+    src: url("../../public/fonts/Shabnam-Light.woff2") format("woff2");
+    src: url("../../public/fonts/Shabnam-Light.woff") format("woff");
+    src: url("../../public/fonts/Shabnam-Light.ttf") format("ttf");
+}
+@font-face {
+    font-family: shabnam;
+    src: url("../../public/fonts/Shabnam.eot") format("eot");
+    src: url("../../public/fonts/Shabnam.woff2") format("woff2");
+    src: url("../../public/fonts/Shabnam.woff") format("woff");
+    src: url("../../public/fonts/Shabnam.ttf") format("ttf");
+}
+@theme {
+  --font-shabnam-medium: "shabnam-medium", "sans-serif";
+  --font-shabnam-light: "shabnam-light", "sans-serif";
+  --font-shabnam: "shabnam", "sans-serif";
+}
