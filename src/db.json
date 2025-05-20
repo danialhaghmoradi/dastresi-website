@@ -25,7 +25,8 @@
     {
       "id": 1,
       "title": "خانه",
-      "slug": "home"
+      "slug": "home",
+      "children": []
     },
     {
       "id": 2,
