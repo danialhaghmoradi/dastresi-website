@@ -4,14 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>فروشگاه اینترنتی دسترسی</title>
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./src/css/main.css" />
+    <link rel="stylesheet" href="./src/css/custom.css" />
   </head>
   <body>
     <!-- start project  -->
     <div class="wrapper w-full">
       <!-- start  header -->
       <header
-        class="header w-full flex flex-col justify-center items-center shadow-md "
+        class="header w-full flex flex-col justify-center items-center shadow-md"
       >
         <div class="w-[65%] flex py-2 justify-center items-center">
           <!--start  icon header -->
@@ -135,8 +137,21 @@
         </div>
       </header>
       <!-- end  header -->
+      <!-- start Hero slider -->
+      <section class="flex justify-center items-center w-full py-8">
+        <div class="w-full max-w-[65%]  px-4">
+          <div class="swiper mySwiper rounded-2xl overflow-hidden">
+            <div class="swiper-wrapper"></div>
+            <div class="swiper-pagination mt-4"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- end Hero slider -->
     </div>
     <!-- end project  -->
+
+    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
     <script src="./node_modules/axios/dist/axios.min.js"></script>
     <script type="module" src="./src/js/main.js"></script>
   </body>

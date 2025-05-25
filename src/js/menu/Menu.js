@@ -76,5 +76,4 @@ const menu = async () => {
     console.error("Element with id 'navbarmenu' not found");
   }
 };
-menu();
 export default menu;
