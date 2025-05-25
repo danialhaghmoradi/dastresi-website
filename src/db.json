@@ -299,5 +299,19 @@
         }
       ]
     }
+  ],
+  "slider":[
+    {
+        "id":1,"image":".././public/images/slider/slide-1.png","name":"اسلایدر-اول"
+    },
+    {
+        "id":2,"image":".././public/images/slider/slide-1.png","name":"اسلایدر-دوم"
+    },
+    {
+        "id":3,"image":".././public/images/slider/slide-1.png","name":"اسلایدر-سوم"
+    },
+    {
+        "id":4,"image":".././public/images/slider/slide-1.png","name":"اسلایدر-چهارم"
+    }
   ]
 }
