@@ -305,13 +305,13 @@
         "id":1,"image":".././public/images/slider/slide-1.png","name":"اسلایدر-اول"
     },
     {
-        "id":2,"image":".././public/images/slider/slide-1.png","name":"اسلایدر-دوم"
+        "id":2,"image":".././public/images/slider/slide-2.png","name":"اسلایدر-دوم"
     },
     {
-        "id":3,"image":".././public/images/slider/slide-1.png","name":"اسلایدر-سوم"
+        "id":3,"image":".././public/images/slider/slide-3.png","name":"اسلایدر-سوم"
     },
     {
-        "id":4,"image":".././public/images/slider/slide-1.png","name":"اسلایدر-چهارم"
+        "id":4,"image":".././public/images/slider/slide-4.png","name":"اسلایدر-چهارم"
     }
   ]
 }
