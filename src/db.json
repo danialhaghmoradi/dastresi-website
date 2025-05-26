@@ -96,13 +96,38 @@
           ]
         },
         { "id": 6, "title": "پاور بانک و جامپ استارتر", "slug": "powerbank" },
-        { "id": 7, "title": "کابل شارژ", "slug": "Charging-cable", "children": [
-            { "id": 1, "title": "کابل شارژ تایپ سی ", "slug": "Charging-cable-type-c" },
-            { "id": 2, "title": "کابل شارژ لایتینگ", "slug": "Charging-cable-lighthing" },
-            { "id": 3, "title": "کابل شارژ دو سر تایپ سی", "slug": "Charging-cable-type-c" },
-            { "id": 4, "title": "کابل شارژ ایفون", "slug": "Charging-cable-iphone" },
-            { "id": 5, "title": "کابل شارژ سامسونگ", "slug": "Charging-cable-samsung" }
-          ] },
+        {
+          "id": 7,
+          "title": "کابل شارژ",
+          "slug": "Charging-cable",
+          "children": [
+            {
+              "id": 1,
+              "title": "کابل شارژ تایپ سی ",
+              "slug": "Charging-cable-type-c"
+            },
+            {
+              "id": 2,
+              "title": "کابل شارژ لایتینگ",
+              "slug": "Charging-cable-lighthing"
+            },
+            {
+              "id": 3,
+              "title": "کابل شارژ دو سر تایپ سی",
+              "slug": "Charging-cable-type-c"
+            },
+            {
+              "id": 4,
+              "title": "کابل شارژ ایفون",
+              "slug": "Charging-cable-iphone"
+            },
+            {
+              "id": 5,
+              "title": "کابل شارژ سامسونگ",
+              "slug": "Charging-cable-samsung"
+            }
+          ]
+        },
         { "id": 8, "title": "آداپتور شارژر", "slug": "Charger-adapter" },
         {
           "id": 9,
@@ -300,18 +325,78 @@
       ]
     }
   ],
-  "slider":[
+  "slider": [
     {
-        "id":1,"image":".././public/images/slider/slide-1.png","name":"اسلایدر-اول"
+      "id": 1,
+      "image": ".././public/images/slider/slide-1.png",
+      "name": "اسلایدر-اول"
     },
     {
-        "id":2,"image":".././public/images/slider/slide-2.png","name":"اسلایدر-دوم"
+      "id": 2,
+      "image": ".././public/images/slider/slide-2.png",
+      "name": "اسلایدر-دوم"
     },
     {
-        "id":3,"image":".././public/images/slider/slide-3.png","name":"اسلایدر-سوم"
+      "id": 3,
+      "image": ".././public/images/slider/slide-3.png",
+      "name": "اسلایدر-سوم"
     },
     {
-        "id":4,"image":".././public/images/slider/slide-4.png","name":"اسلایدر-چهارم"
+      "id": 4,
+      "image": ".././public/images/slider/slide-4.png",
+      "name": "اسلایدر-چهارم"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "شارژر دیواری و پاوربانک وایرلس 20000 میلی آمپری 22.5 واتی هیسکا مدل Hiska HP-223PD",
+      "price": 3070000,
+      "discountPrice": 300000,
+      "isDiscounted": true,
+      "colors": ["orange", "white"],
+      "image": ".././public/images/products/image-1",
+      "count":5
+    },
+    {
+      "id": 2,
+      "name": "شارژر دیواری 67 واتی گان با کابل تایپ سی مک دودو مدل Mcdodo CH-410",
+      "price": 2354000,
+      "discountPrice": 355000,
+      "isDiscounted": true,
+      "colors": ["black"],
+      "image": ".././public/images/products/image-2",
+      "count":2
+    },
+    {
+      "id": 3,
+      "name": "شارژر دیواری 45 واتی مک دودو مدل Mcdodo CH-486",
+      "price": 1790000,
+      "discountPrice": 300000,
+      "isDiscounted": true,
+      "colors": ["black"],
+      "image": ".././public/images/products/image-3",
+      "count":4
+    },
+    {
+      "id": 4,
+      "name": "رابط برق USB دار مک دودو 30 وات مدل Mcdodo CH-062",
+      "price": 1885000,
+      "discountPrice": 400000,
+      "isDiscounted": true,
+      "colors": ["black"],
+      "image": ".././public/images/products/image-4",
+      "count":1
+    },
+    {
+      "id": 5,
+      "name": "شارژر رومیزی الدینیو 140 واتی گان مدل Ldnio 6140",
+      "price": 2890000,
+      "discountPrice": 300000,
+      "isDiscounted": true,
+      "colors": ["black"],
+      "image": ".././public/images/products/image-5",
+      "count":8
     }
   ]
 }
