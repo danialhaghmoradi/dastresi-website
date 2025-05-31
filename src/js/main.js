@@ -1,3 +1,4 @@
+import countdown from "./countdown";
 import header from "./header/header";
 import heroSlider from "./hero-slider/hero-slider";
 import swiperConfig from "./hero-slider/swiperConfig";
@@ -6,3 +7,4 @@ heroSlider()
 header();
 menu();
 swiperConfig();
+countdown();
