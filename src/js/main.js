@@ -3,8 +3,13 @@ import header from "./header/header";
 import heroSlider from "./hero-slider/hero-slider";
 import swiperConfig from "./hero-slider/swiperConfig";
 import menu from "./menu/Menu";
-heroSlider()
+import { productDiscount_col_1, productDiscount_col_2 } from "./products_discounts/products_discounts";
+
+
+heroSlider();
 header();
 menu();
 swiperConfig();
 countdown();
+productDiscount_col_1()
+productDiscount_col_2()
