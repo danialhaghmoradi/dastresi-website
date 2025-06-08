@@ -356,7 +356,7 @@
       "isDiscounted": true,
       "colors": ["orange", "white"],
       "image": "/images/products/image-1.png",
-      "count":5
+      "count": 5
     },
     {
       "id": 2,
@@ -366,7 +366,7 @@
       "isDiscounted": true,
       "colors": ["black"],
       "image": "/images/products/image-2.png",
-      "count":2
+      "count": 2
     },
     {
       "id": 3,
@@ -376,7 +376,7 @@
       "isDiscounted": true,
       "colors": ["black"],
       "image": "/images/products/image-3.png",
-      "count":4
+      "count": 4
     },
     {
       "id": 4,
@@ -386,7 +386,7 @@
       "isDiscounted": true,
       "colors": ["black"],
       "image": "/images/products/image-4.png",
-      "count":1
+      "count": 1
     },
     {
       "id": 5,
@@ -396,7 +396,73 @@
       "isDiscounted": true,
       "colors": ["black"],
       "image": "/images/products/image-5.png",
-      "count":8
+      "count": 8
+    }
+  ],
+  "sliderCategories": [
+    {
+      "id": 1,
+      "name": "باتری",
+      "image": "/images/sliderCategories/battery.png",
+      "slug": "Battery",
+      "isActive": true,
+      "link": ""
+    },
+    {
+      "id": 2,
+      "name": "لوازم گیمینگ",
+      "image": "/images/sliderCategories/gaming.png",
+      "slug": "Gaming-accessories",
+      "isActive": true,
+      "link": ""
+    },
+    {
+      "id": 3,
+      "name": "کابل شارژ",
+      "image": "/images/sliderCategories/cable.png",
+      "slug": "Charger-cable",
+      "isActive": true,
+      "link": ""
+    },
+    {
+      "id": 4,
+      "name": "آداپتور و شارژر",
+      "image": "/images/sliderCategories/adaptor.png",
+      "slug": "Charger-adapter",
+      "isActive": true,
+      "link": ""
+    },
+    {
+      "id": 5,
+      "name": "پاوربانک و لوازم",
+      "image": "/images/sliderCategories/powerbank.png",
+      "slug": "powerbank",
+      "isActive": true,
+      "link": ""
+    },
+    {
+      "id": 6,
+      "name": "هندزفری و هدست",
+      "image": "/images/sliderCategories/handsfree.png",
+      "slug": "Handsfree-headset",
+      "isActive": true,
+      "link": ""
+    },
+    {
+      "id": 7,
+      "name": "هولدر و نگهدارنده",
+      "image": "/images/sliderCategories/Holder-Negahdarande.png",
+      "slug": "Holder-and-retainer",
+      "isActive": true,
+      "link": ""
+    },
+    {
+      "id": 8,
+      "name": "مبدل و رابط",
+      "image": "/images/sliderCategories/mobadel-rabet.png",
+      "slug": "Converter-interface",
+      "isActive": true,
+      "link": ""
     }
   ]
 }
