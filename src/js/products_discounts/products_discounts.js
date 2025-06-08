@@ -1,0 +1,90 @@
+const productDiscount_col_1 = async () => {
+  let productDiscount_col_1 = document.querySelector("#products_col_1");
+
+  try {
+    let res = await axios.get("http://localhost:3004/products");
+    let discountedProducts = res.data.filter(
+      (item) => item.isDiscounted === true
+    );
+    let col1Products = discountedProducts.slice(0, 2);
+
+    const createProductHTML = (item) => `
+      <div
+        class="product w-full bg-white px-2 py-4 text-[16px] rounded-2xl shadow-2xl shadow-[#909090]"
+      >
+        <img src="${item.image}" alt="" />
+        <h3 class="font-shabnam-medium line-clamp-2">
+          ${item.name}
+        </h3>
+        <div class="flex justify-between mt-10 px-2">
+          <span class="line-through font-shabnam-medium">${item.price}</span>
+          <span class="text-[#FE5F55] font-shabnam-medium">${
+            item.discountPrice
+          }</span>
+        </div>
+        <div
+          class="flex items-center justify-end font-shabnam-medium text-[#0A5ABD] px-2"
+        >
+          ${item.price - item.discountPrice}
+          <span class="text-[#545C5C]"> تومان </span>
+        </div>
+      </div>`;
+
+    productDiscount_col_1.innerHTML = col1Products
+      .map(createProductHTML)
+      .join(" ");
+    // productDiscount_col_2.innerHTML = col2Products
+    //   .map(createProductHTML)
+    //   .join(" ");
+  } catch (error) {
+    console.log(error.message);
+  }
+};
+
+const productDiscount_col_2 = async () => {
+  let productDiscount_col_2 = document.querySelector("#products_col_2");
+  try {
+    let res = await axios.get("http://localhost:3004/products");
+    let discountedProducts = res.data.filter(
+      (item) => item.isDiscounted === true
+    );
+    let col2Products = discountedProducts.slice(2, 5);
+    const createProductHTML = (item) => `
+        <div
+                class="product flex flex-row bg-white px-2 text-[16px] rounded-2xl shadow-2xl shadow-[#909090]"
+              >
+                <img
+                  src="${item.image}"
+                  alt="charger"
+                  class="w-40 mx-auto rounded-r-xl"
+                />
+
+                <div>
+                  <h3 class="font-shabnam-medium line-clamp-2">
+                ${item.name}
+                  </h3>
+                  <div class="w-full flex items-start mt-5">
+                    <span class="line-through font-shabnam-medium text-[15px]"
+                      >${item.price}</span
+                    >
+                    <span
+                      class="text-[#FE5F55] font-shabnam-medium text-[16px] px-2"
+                      >${item.discountPrice}تومان تخفیف</span
+                    >
+                  </div>
+                  <div
+                    class="flex items-center justify-end font-shabnam-medium text-[#0A5ABD] px-2"
+                  >
+                    ${item.price - item.discountPrice}
+                    <span class="text-[#545C5C]"> تومان </span>
+                  </div>
+                </div>
+              </div>`;
+    productDiscount_col_2.innerHTML = col2Products
+      .map(createProductHTML)
+      .join(" ");
+  } catch (error) {
+    console.log(error.message);
+  }
+};
+export { productDiscount_col_1, productDiscount_col_2 };
