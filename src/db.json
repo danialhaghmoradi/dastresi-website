@@ -355,7 +355,7 @@
       "discountPrice": 300000,
       "isDiscounted": true,
       "colors": ["orange", "white"],
-      "image": ".././public/images/products/image-1",
+      "image": "/images/products/image-1.png",
       "count":5
     },
     {
@@ -365,7 +365,7 @@
       "discountPrice": 355000,
       "isDiscounted": true,
       "colors": ["black"],
-      "image": ".././public/images/products/image-2",
+      "image": "/images/products/image-2.png",
       "count":2
     },
     {
@@ -375,7 +375,7 @@
       "discountPrice": 300000,
       "isDiscounted": true,
       "colors": ["black"],
-      "image": ".././public/images/products/image-3",
+      "image": "/images/products/image-3.png",
       "count":4
     },
     {
@@ -385,7 +385,7 @@
       "discountPrice": 400000,
       "isDiscounted": true,
       "colors": ["black"],
-      "image": ".././public/images/products/image-4",
+      "image": "/images/products/image-4.png",
       "count":1
     },
     {
@@ -395,7 +395,7 @@
       "discountPrice": 300000,
       "isDiscounted": true,
       "colors": ["black"],
-      "image": ".././public/images/products/image-5",
+      "image": "/images/products/image-5.png",
       "count":8
     }
   ]
