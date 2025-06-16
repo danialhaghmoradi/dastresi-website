@@ -1,3 +1,5 @@
+import { productDiscount_col_1, productDiscount_col_2 } from "./products_discounts/products_discounts.js";
+
 const countdown = (durationHours = 50) => {
   const timerElement = document.querySelector("#countdown-timer");
   if (!timerElement) return;
@@ -22,6 +24,9 @@ const countdown = (durationHours = 50) => {
       timerElement.textContent = "00:00:00";
       clearInterval(timer);
       localStorage.removeItem("countdownEndTime");
+
+      productDiscount_col_1();
+      productDiscount_col_2();
       return;
     }
 

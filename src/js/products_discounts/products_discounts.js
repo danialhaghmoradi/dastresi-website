@@ -1,3 +1,9 @@
+const isCountdownFinished = () => {
+  const countdownEndTime = localStorage.getItem("countdownEndTime");
+  if (!countdownEndTime) return true;
+  return Date.now() > Number(countdownEndTime);
+};
+
 const productDiscount_col_1 = async () => {
   let productDiscount_col_1 = document.querySelector("#products_col_1");
 
@@ -8,34 +14,45 @@ const productDiscount_col_1 = async () => {
     );
     let col1Products = discountedProducts.slice(0, 2);
 
-    const createProductHTML = (item) => `
-      <div
-        class="product w-full bg-white px-2 py-4 text-[16px] rounded-2xl shadow-2xl shadow-[#909090]"
-      >
-        <img src="${item.image}" alt="" />
-        <h3 class="font-shabnam-medium line-clamp-2">
-          ${item.name}
-        </h3>
-        <div class="flex justify-between mt-10 px-2">
-          <span class="line-through font-shabnam-medium">${item.price}</span>
-          <span class="text-[#FE5F55] font-shabnam-medium">${
-            item.discountPrice
-          }</span>
-        </div>
+    const createProductHTML = (item) => {
+      const finished = isCountdownFinished();
+
+      return `
         <div
-          class="flex items-center justify-end font-shabnam-medium text-[#0A5ABD] px-2"
+          class="product w-full bg-white px-2 py-4 text-[16px] rounded-2xl shadow-2xl shadow-[#909090]"
         >
-          ${item.price - item.discountPrice}
-          <span class="text-[#545C5C]"> تومان </span>
-        </div>
-      </div>`;
+          <img src="${item.image}" alt="" />
+          <h3 class="font-shabnam-medium line-clamp-2">
+            ${item.name}
+          </h3>
+          ${
+            finished
+              ? `<div class="flex justify-center mt-10">
+                  <button class="bg-gray-400 text-white px-4 py-2 rounded-lg cursor-not-allowed" disabled>
+                    ناموجود
+                  </button>
+                </div>`
+              : `
+                <div class="flex justify-between mt-10 px-2">
+                  <span class="line-through font-shabnam-medium">${
+                    item.price
+                  }</span>
+                  <span class="text-[#FE5F55] font-shabnam-medium">${
+                    item.discountPrice
+                  }</span>
+                </div>
+                <div class="flex items-center justify-end font-shabnam-medium text-[#0A5ABD] px-2">
+                  ${item.price - item.discountPrice}
+                  <span class="text-[#545C5C]"> تومان </span>
+                </div>
+              `
+          }
+        </div>`;
+    };
 
     productDiscount_col_1.innerHTML = col1Products
       .map(createProductHTML)
       .join(" ");
-    // productDiscount_col_2.innerHTML = col2Products
-    //   .map(createProductHTML)
-    //   .join(" ");
   } catch (error) {
     console.log(error.message);
   }
@@ -49,37 +66,53 @@ const productDiscount_col_2 = async () => {
       (item) => item.isDiscounted === true
     );
     let col2Products = discountedProducts.slice(2, 5);
-    const createProductHTML = (item) => `
-        <div
-                class="product flex flex-row bg-white px-2 text-[16px] rounded-2xl shadow-2xl shadow-[#909090]"
-              >
-                <img
-                  src="${item.image}"
-                  alt="charger"
-                  class="w-40 mx-auto rounded-r-xl"
-                />
 
-                <div>
-                  <h3 class="font-shabnam-medium line-clamp-2">
-                ${item.name}
-                  </h3>
+    const createProductHTML = (item) => {
+      const finished = isCountdownFinished();
+
+      return `
+        <div
+          class="product flex flex-row bg-white px-2 text-[16px] rounded-2xl shadow-2xl shadow-[#909090]"
+        >
+          <img
+            src="${item.image}"
+            alt="product"
+            class="w-40 mx-auto rounded-r-xl"
+          />
+
+          <div>
+            <h3 class="font-shabnam-medium line-clamp-2">
+              ${item.name}
+            </h3>
+            ${
+              finished
+                ? `<div class="flex justify-center mt-5">
+                    <button class="bg-gray-400 text-white px-4 py-2 rounded-lg cursor-not-allowed" disabled>
+                      ناموجود
+                    </button>
+                  </div>`
+                : `
                   <div class="w-full flex items-start mt-5">
-                    <span class="line-through font-shabnam-medium text-[15px]"
-                      >${item.price}</span
-                    >
+                    <span class="line-through font-shabnam-medium text-[15px]">
+                      ${item.price}
+                    </span>
                     <span
                       class="text-[#FE5F55] font-shabnam-medium text-[16px] px-2"
-                      >${item.discountPrice}تومان تخفیف</span
                     >
+                      ${item.discountPrice} تومان تخفیف
+                    </span>
                   </div>
                   <div
                     class="flex items-center justify-end font-shabnam-medium text-[#0A5ABD] px-2"
                   >
                     ${item.price - item.discountPrice}
                     <span class="text-[#545C5C]"> تومان </span>
-                  </div>
-                </div>
-              </div>`;
+                  </div>`
+            }
+          </div>
+        </div>`;
+    };
+
     productDiscount_col_2.innerHTML = col2Products
       .map(createProductHTML)
       .join(" ");
@@ -87,4 +120,5 @@ const productDiscount_col_2 = async () => {
     console.log(error.message);
   }
 };
+
 export { productDiscount_col_1, productDiscount_col_2 };
