@@ -11,6 +11,8 @@ import sliderCategories from "./slidercategories/sliderCategories";
 import { swiperConfigSliderCategories } from "./slidercategories/swiperconfig-slidercategories";
 import { swiperConfigArrivalsSlider } from "./arrivalsslider/swiperconfig-arrivalsslider";
 import arrivalsslider from "./arrivalsslider/arrivalsslider";
+import { swiperConfigBestSellingSlider } from "./bestsellingslider/swiperconfig-bestsellingslider";
+import bestsellingslider from "./bestsellingslider/bestsellingslider";
 heroSlider();
 header();
 menu();
@@ -21,5 +23,7 @@ productDiscount_col_2();
 swiperConfigSliderCategories();
 sliderCategories();
 swiperConfigArrivalsSlider();
-swiperConfigArrivalsSlider()
-arrivalsslider()
+swiperConfigArrivalsSlider();
+arrivalsslider();
+swiperConfigBestSellingSlider();
+bestsellingslider();
