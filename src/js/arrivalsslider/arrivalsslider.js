@@ -64,7 +64,7 @@ const arrivalsslider = async (params) => {
                 class="w-[15px] h-[15px] rounded-full"
               style="background-color: ${item.colors};"
             ></div>
-</div>
+            </div>
                 <img src="${item.image}" alt="" />
                 <div class="line-clamp-1 font-shabnam-medium text-[14px] text-[#1F1F1F] pt-2 px-4">
                   ${item.name}
