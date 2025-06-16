@@ -356,6 +356,7 @@
       "isDiscounted": true,
       "colors": ["orange", "white"],
       "image": "/images/products/image-1.png",
+      "createdAt": "2025-06-01T00:00:00Z",
       "count": 5
     },
     {
@@ -366,6 +367,7 @@
       "isDiscounted": true,
       "colors": ["black"],
       "image": "/images/products/image-2.png",
+      "createdAt": "2025-06-01T00:00:00Z",
       "count": 2
     },
     {
@@ -375,6 +377,7 @@
       "discountPrice": 300000,
       "isDiscounted": true,
       "colors": ["black"],
+      "createdAt": "2025-06-01T00:00:00Z",
       "image": "/images/products/image-3.png",
       "count": 4
     },
@@ -385,6 +388,7 @@
       "discountPrice": 400000,
       "isDiscounted": true,
       "colors": ["black"],
+      "createdAt": "2025-06-03T00:00:00Z",
       "image": "/images/products/image-4.png",
       "count": 1
     },
@@ -395,8 +399,96 @@
       "discountPrice": 300000,
       "isDiscounted": true,
       "colors": ["black"],
+      "createdAt": "2025-06-03T00:00:00Z",
       "image": "/images/products/image-5.png",
       "count": 8
+    },
+    {
+      "id": 6,
+      "name": "پاوربانک 27600 میلی آمپر 130 واتی اورایمو مدل Oraimo OPB-727SQ",
+      "price": 5950000,
+      "discountPrice": 140000,
+      "isDiscounted": true,
+      "colors": ["black"],
+      "createdAt": "2025-06-16T00:00:00Z",
+      "image": "/images/products/ORAIMO725-11.png",
+      "count": 8
+    },
+    {
+      "id": 7,
+      "name": "پاوربانک وایرلس شارژ سولار 27000 میلی آمپر پاورولوژی PP077 مدل Powerology PPBCHA77",
+      "price": 3200000,
+      "discountPrice": 215000,
+      "isDiscounted": true,
+      "colors": ["black"],
+      "createdAt": "2025-06-16T00:00:00Z",
+      "image": "/images/products/POWEROLOGY-PPCHA77-11.png",
+      "count": 11
+    },
+    {
+      "id": 8,
+      "name": "رابط برق USB دار 65 واتی الدینیو مدل Ldnio SE3338",
+      "price": 2195000,
+      "discountPrice": 0,
+      "isDiscounted": false,
+      "colors": ["black"],
+      "createdAt": "2025-06-16T00:00:00Z",
+      "image": "/images/products/Q4010-11.png",
+      "count": 4
+    },
+    {
+      "id": 9,
+      "name": "شارژر رومیزی الدینیو 140 واتی گان مدل Ldnio 6140",
+      "price": 1847000,
+      "discountPrice": 0,
+      "isDiscounted": false,
+      "colors": ["Navy"],
+      "createdAt": "2025-06-16T00:00:00Z",
+      "image": "/images/products/SE3338-11.png",
+      "count": 3
+    },
+    {
+      "id": 10,
+      "name": "کابل شارژ مگنتی تایپ سی به لایتنینگ 36 واتی مک دودو مدل Mcdodo CA-2010",
+      "price": 580000,
+      "discountPrice": 30000,
+      "isDiscounted": true,
+      "colors": ["black"],
+      "image": "/images/products/MCDODO-2010-11.png",
+      "count": 2
+    },
+    {
+      "id": 11,
+      "name": "جویسر 600 میلی لیتر گرین مدل Green Lion GNPJ7BLDRBK",
+      "price": 2390000,
+      "discountPrice": 0,
+      "isDiscounted": false,
+      "colors": ["black"],
+      "createdAt": "2025-06-16T00:00:00Z",
+      "image": "/images/products/juser-green7-11.png",
+      "count": 0
+    },
+    {
+      "id": 12,
+      "name": "جت فن 150 واتی گرین مدل Green Lion GNJJPBLWR2GY",
+      "price": 3290000,
+      "discountPrice": 0,
+      "isDiscounted": false,
+      "colors": ["black"],
+      "createdAt": "2025-06-16T00:00:00Z",
+      "image": "/images/products/JETFAN-11.png",
+      "count": 0
+    },
+    {
+      "id": 13,
+      "name": "شارژر دیواری 20 واتی به همراه کابل دوسر تایپ سی انکر مدل Anker B2348",
+      "price": 690000,
+      "discountPrice": 0,
+      "isDiscounted": false,
+      "colors": ["black"],
+      "createdAt": "2025-06-16T00:00:00Z",
+      "image": "/images/products/ANKER2348-11",
+      "count": 0
     }
   ],
   "sliderCategories": [
