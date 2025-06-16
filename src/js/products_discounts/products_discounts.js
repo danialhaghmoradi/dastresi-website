@@ -1,3 +1,7 @@
+const toPersianDigits = (number) => {
+  return number.toLocaleString("fa-IR").replace(/٬/g, ",");
+};
+
 const isCountdownFinished = () => {
   const countdownEndTime = localStorage.getItem("countdownEndTime");
   if (!countdownEndTime) return true;
@@ -34,16 +38,17 @@ const productDiscount_col_1 = async () => {
                 </div>`
               : `
                 <div class="flex justify-between mt-10 px-2">
-                  <span class="line-through font-shabnam-medium">${
+                  <span class="line-through font-shabnam-medium">${toPersianDigits(
                     item.price
-                  }</span>
-                  <span class="text-[#FE5F55] font-shabnam-medium">${
+                  )}</span>
+                  <span class="text-[#FE5F55] font-shabnam-medium">  ${toPersianDigits(
                     item.discountPrice
-                  }</span>
+                  )}
+                    تومان تخفیف</span>
                 </div>
-                <div class="flex items-center justify-end font-shabnam-medium text-[#0A5ABD] px-2">
-                  ${item.price - item.discountPrice}
-                  <span class="text-[#545C5C]"> تومان </span>
+                <div class="flex items-center justify-end font-shabnam-medium font-bold text-[18px] text-[#0A5ABD] px-2">
+                 ${toPersianDigits(item.price - item.discountPrice)}
+                  <span class="text-[#545C5C] font-normal pr-2 text-[14px]"> تومان </span>
                 </div>
               `
           }
@@ -94,19 +99,20 @@ const productDiscount_col_2 = async () => {
                 : `
                   <div class="w-full flex items-start mt-5">
                     <span class="line-through font-shabnam-medium text-[15px]">
-                      ${item.price}
+                      ${toPersianDigits(item.price)}
                     </span>
                     <span
                       class="text-[#FE5F55] font-shabnam-medium text-[16px] px-2"
                     >
-                      ${item.discountPrice} تومان تخفیف
+                      ${toPersianDigits(item.discountPrice)}
+                    تومان <br/> تخفیف
                     </span>
                   </div>
                   <div
-                    class="flex items-center justify-end font-shabnam-medium text-[#0A5ABD] px-2"
+                    class="flex items-center justify-end font-shabnam-medium font-bold text-[18px] text-[#0A5ABD] px-2"
                   >
-                    ${item.price - item.discountPrice}
-                    <span class="text-[#545C5C]"> تومان </span>
+                    ${toPersianDigits(item.price - item.discountPrice)}
+                    <span class="text-[#545C5C] font-normal pr-2 text-[14px]"> تومان </span>
                   </div>`
             }
           </div>
