@@ -9,6 +9,8 @@ import {
 } from "./products_discounts/products_discounts";
 import sliderCategories from "./slidercategories/sliderCategories";
 import { swiperConfigSliderCategories } from "./slidercategories/swiperconfig-slidercategories";
+import { swiperConfigArrivalsSlider } from "./arrivalsslider/swiperconfig-arrivalsslider";
+import arrivalsslider from "./arrivalsslider/arrivalsslider";
 heroSlider();
 header();
 menu();
@@ -18,3 +20,6 @@ productDiscount_col_1();
 productDiscount_col_2();
 swiperConfigSliderCategories();
 sliderCategories();
+swiperConfigArrivalsSlider();
+swiperConfigArrivalsSlider()
+arrivalsslider()
