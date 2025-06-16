@@ -6,7 +6,7 @@ const arrivalsslider = async (params) => {
     return array
       .map((value) => ({ value, sort: Math.random() }))
       .sort((a, b) => a.sort - b.sort)
-      .map(({ value }) => value); 
+      .map(({ value }) => value);
   }
   let slide = "";
   let swipersliderarrivalsslider = document.querySelector(
@@ -59,6 +59,12 @@ const arrivalsslider = async (params) => {
           <div class="swiper-slide rounded-2xl shadow-2xl">
             <a class="block" href="#">
               <div class="p-4 rounded-2xl bg-white">
+           <div class="w-full flex justify-end">
+             <div
+                class="w-[15px] h-[15px] rounded-full"
+              style="background-color: ${item.colors};"
+            ></div>
+</div>
                 <img src="${item.image}" alt="" />
                 <div class="line-clamp-1 font-shabnam-medium text-[14px] text-[#1F1F1F] pt-2 px-4">
                   ${item.name}
