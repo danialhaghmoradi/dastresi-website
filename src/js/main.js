@@ -13,6 +13,7 @@ import { swiperConfigArrivalsSlider } from "./arrivalsslider/swiperconfig-arriva
 import arrivalsslider from "./arrivalsslider/arrivalsslider";
 import { swiperConfigBestSellingSlider } from "./bestsellingslider/swiperconfig-bestsellingslider";
 import bestsellingslider from "./bestsellingslider/bestsellingslider";
+import { swiperConfigSliderBrand } from "./sliderBrand/swiperConfigSliderBrand";
 heroSlider();
 header();
 menu();
@@ -27,3 +28,4 @@ swiperConfigArrivalsSlider();
 arrivalsslider();
 swiperConfigBestSellingSlider();
 bestsellingslider();
+swiperConfigSliderBrand();
