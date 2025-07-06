@@ -355,9 +355,22 @@
       "discountPrice": 300000,
       "isDiscounted": true,
       "colors": ["orange", "white"],
+      "brand": ["هیسکا", "Hiska"],
       "image": "/images/products/image-1.png",
       "createdAt": "2025-06-01T00:00:00Z",
-      "count": 5
+      "count": 5,
+      "warantys": ["مهلت تست  ۳ روزه"],
+      "slug": "Hiska-HP223PD",
+      "category": "شارژر دیواری",
+      "features": [
+        "ظرفیت 20 هزار",
+        "دارای تبدیل به برق ایرانی",
+        "دارای 3 پورت خروجی ( تایپ سی و USB-A و لایتنینگ",
+        "دارای کابل همراه تایپ سی به لایتنینگ",
+        "دارای شارژ وایرلس شارز و فناوری مگ سیف",
+        "شارژر دیواری ",
+        "توان خروجی 22.5 وات"
+      ]
     },
     {
       "id": 2,
@@ -366,9 +379,22 @@
       "discountPrice": 355000,
       "isDiscounted": true,
       "colors": ["black"],
+      "brand": ["مک دودو", "macdodo"],
       "image": "/images/products/image-2.png",
       "createdAt": "2025-06-01T00:00:00Z",
-      "count": 2
+      "count": 2,
+      "warantys": ["مهلت تست  ۳ روزه"],
+      "slug": "Mcdodo-CH410",
+      "category": "شارژر دیواری",
+      "features": [
+        "دارای صفحه نمایش LED",
+        "توان خروجی 67 واتی",
+        "دارای فناوری گان",
+        "دارای کابل متصل تایپ سی",
+        "کابل قرقره ای",
+        "طول کابل 65 سانتی متر",
+        "دارای 2 خروجی ( تایپ سی و USB-A )"
+      ]
     },
     {
       "id": 3,
@@ -377,9 +403,20 @@
       "discountPrice": 300000,
       "isDiscounted": true,
       "colors": ["black"],
+      "brand": ["مک دودو", "macdodo"],
       "createdAt": "2025-06-01T00:00:00Z",
       "image": "/images/products/image-3.png",
-      "count": 4
+      "count": 4,
+      "warantys": ["مهلت تست  ۳ روزه"],
+      "slug": "Mcdodo-CH486",
+      "category": "شارژر دیواری",
+      "features": [
+        "توان خروجی 45 وات",
+        "3 پورت خروجی ( 2 پورت تایپ سی و 1 پورت USB-A )",
+        "دارای فناوری PD",
+        "وزن 101 گرم",
+        "انتقال سوپر فست شارژ 2 (سامسونگ)"
+      ]
     },
     {
       "id": 4,
@@ -388,9 +425,21 @@
       "discountPrice": 400000,
       "isDiscounted": true,
       "colors": ["black"],
+      "brand": ["مک دودو", "macdodo"],
       "createdAt": "2025-06-03T00:00:00Z",
       "image": "/images/products/image-4.png",
-      "count": 1
+      "count": 1,
+      "warantys": ["مهلت تست  ۳ روزه"],
+      "slug": "Mcdodo-CH062",
+      "category": "رابط برق و USB",
+      "features": [
+        "3 خروجی برق",
+        "3 پورت خروجی (USB-A و 2*تایپ سی)",
+        "توان خروجی پورت USB-A تا 30 وات و تایپ سی تا 33 وات",
+        "دارای کلید قطع و وصل جریان",
+        "وزن 414 گرم",
+        "توان خروجی 2500 وات"
+      ]
     },
     {
       "id": 5,
@@ -399,9 +448,23 @@
       "discountPrice": 300000,
       "isDiscounted": true,
       "colors": ["black"],
+      "brand": ["ال دی نیو", "ldnio"],
       "createdAt": "2025-06-03T00:00:00Z",
       "image": "/images/products/image-5.png",
-      "count": 8
+      "count": 8,
+      "warantys": ["مهلت تست  ۳ روزه"],
+      "slug": "Ldnio-6140",
+      "category": "شارژر رومیزی",
+      "features": [
+        "دارای 3 پورت USB-A",
+        "دارای 3 پورت تایپ سی",
+        "دارای فناوری PD",
+        "توان خروجی 140 وات",
+        "به صورت مستقیم و با کابل",
+        "طول کابل 150 سانتی متر",
+        "دارای نمایشگر برای هر پورت",
+        "دکمه خاموش و روشن"
+      ]
     },
     {
       "id": 6,
@@ -410,9 +473,19 @@
       "discountPrice": 140000,
       "isDiscounted": true,
       "colors": ["black"],
+      "brand": ["اورایمو", "oraimo"],
       "createdAt": "2025-06-16T00:00:00Z",
       "image": "/images/products/ORAIMO725-11.png",
-      "count": 8
+      "count": 8,
+      "warantys": ["مهلت تست  ۳ روزه"],
+      "slug": "Oraimo OPB727SQ",
+      "category": "پاوربانک و جامپ استارتر",
+      "features": [
+        "3 پورت خروجی ( 2 پورت تایپ سی ، USB-A )",
+        "دارای فناوری PD و QC3.0",
+        "بیشینه توان خروجی 130 وات",
+        "نمایشگر LED و نمایش توان خروجی لحظه ای"
+      ]
     },
     {
       "id": 7,
@@ -421,9 +494,21 @@
       "discountPrice": 215000,
       "isDiscounted": true,
       "colors": ["black"],
+      "brand": ["پاورولوژی", "powerology"],
       "createdAt": "2025-06-16T00:00:00Z",
       "image": "/images/products/POWEROLOGY-PPCHA77-11.png",
-      "count": 11
+      "count": 1,
+      "warantys": ["مهلت تست  ۳ روزه"],
+      "slug": "Powerology-PPBCHA77",
+      "category": "پاوربانک و جامپ استارتر",
+      "features": [
+        "دارای پنل سولار",
+        "ظرفیت باتری 27000 میلی آمپر",
+        "وایرلس شارژ",
+        "دارای کابل تایپ سی",
+        "دارای فناوری IP54",
+        "دارای چراغ قوه"
+      ]
     },
     {
       "id": 8,
@@ -432,9 +517,21 @@
       "discountPrice": 0,
       "isDiscounted": false,
       "colors": ["black"],
+      "brand": ["ال دی نیو", "ldnio"],
       "createdAt": "2025-06-16T00:00:00Z",
       "image": "/images/products/Q4010-11.png",
-      "count": 4
+      "count": 4,
+      "warantys": ["مهلت تست  ۳ روزه"],
+      "slug": "Ldnio-SE3338",
+      "category": "رابط برق و USB",
+      "features": [
+        "توان خروجی 65 وات",
+        "3 پورت AC",
+        "3 پورت خروجی برای شارژ موبایل، تبلت و لپ تاپ",
+        "2 پورت تایپ سی و 1 پورت USB-A",
+        "دارای فناوری PD",
+        "طراحی شیک و مینیمال"
+      ]
     },
     {
       "id": 9,
@@ -443,9 +540,21 @@
       "discountPrice": 0,
       "isDiscounted": false,
       "colors": ["Navy"],
+      "brand": ["ال دی نیو", "ldnio"],
       "createdAt": "2025-06-16T00:00:00Z",
       "image": "/images/products/SE3338-11.png",
-      "count": 3
+      "count": 3,
+      "warantys": ["مهلت تست  ۳ روزه"],
+      "slug": "Ldnio-6140",
+      "category": "شارژر رومیزی",
+      "features": [
+        "6 درگاه خروجی",
+        "5 خروجی ( 2 پورت تایپ سی و 1 پورت لایتنینگ و 2 پورت USB-A )",
+        "1 وایرلس شارژ",
+        "توان خروجی 140 وات",
+        "دارای فناوری گان",
+        "دارای چیپست هوشمند برای شارژ"
+      ]
     },
     {
       "id": 10,
@@ -454,8 +563,19 @@
       "discountPrice": 30000,
       "isDiscounted": true,
       "colors": ["black"],
+      "brand": ["مک دودو", "macdodo"],
       "image": "/images/products/MCDODO-2010-11.png",
-      "count": 2
+      "count": 2,
+      "warantys": ["مهلت تست  ۳ روزه"],
+      "slug": "Mcdodo-CA-2010",
+      "category": "کابل شارژ تایپ سی به لایتنینگ",
+      "features": [
+        "کابل شارژ تایپ سی به لایتنینگ",
+        "توان خروجی 36 وات",
+        "طول کابل 120 سانتی متر",
+        "جمع شوندگی مگنتی",
+        "کابل کنفی"
+      ]
     },
     {
       "id": 11,
@@ -464,9 +584,19 @@
       "discountPrice": 0,
       "isDiscounted": false,
       "colors": ["black"],
+      "brand": ["گرین", "green"],
       "createdAt": "2025-06-16T00:00:00Z",
       "image": "/images/products/juser-green7-11.png",
-      "count": 0
+      "count": 0,
+      "warantys": ["مهلت تست  ۳ روزه"],
+      "slug": "Green-Lion-GNPJ7BLDRBK",
+      "category": "جویسر",
+      "features": [
+        "قدرت موتور 120 وات",
+        "باتری 4500 میلی آمپری",
+        "ظرفیت مخزن 600 میلی آمپر",
+        "6 تیغه"
+      ]
     },
     {
       "id": 12,
@@ -475,9 +605,19 @@
       "discountPrice": 0,
       "isDiscounted": false,
       "colors": ["black"],
+      "brand": ["گرین", "green"],
       "createdAt": "2025-06-16T00:00:00Z",
       "image": "/images/products/JETFAN-11.png",
-      "count": 0
+      "count": 0,
+      "warantys": ["مهلت تست  ۳ روزه"],
+      "slug": "Green-Lion-GNJJPBLWR2GY",
+      "category": "انواع گجت های جذاب",
+      "features": [
+        "130 هزار دور در دقیقه",
+        "قدرت موتور 150 وات",
+        "دارای 2 باتری 2500 میلی آمپری",
+        "وزن 460 گرم"
+      ]
     },
     {
       "id": 13,
@@ -486,9 +626,20 @@
       "discountPrice": 0,
       "isDiscounted": false,
       "colors": ["black"],
+      "brand": ["انکر", "anker"],
       "createdAt": "2025-06-16T00:00:00Z",
       "image": "/images/products/ANKER2348-11.png",
-      "count": 0
+      "count": 0,
+      "warantys": ["مهلت تست  ۳ روزه"],
+      "slug": "Anker-B2348",
+        "category": "شارژر دیواری",
+      "features": [
+        "2 پورت خروجی ( تایپ سی و USB-A )",
+        "دارای فناوری IQ3",
+        "بیشینه توان خروجی 20 وات",
+        "پشتیبانی از فست شارژ",
+        "دارای کابل دوسر تایپ سی 1.5 متری"
+      ]
     }
   ],
   "sliderCategories": [
