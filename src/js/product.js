@@ -339,5 +339,4 @@ document.addEventListener("DOMContentLoaded", () => {
   header();
   menu();
   loadProductDetails();
-  footer
 });
