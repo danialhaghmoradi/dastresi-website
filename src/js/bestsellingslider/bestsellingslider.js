@@ -38,7 +38,7 @@ const bestSellingSlider = async () => {
         }
         return `
           <div class="swiper-slide rounded-2xl shadow-2xl">
-            <a class="block" href="#">
+            <a class="block" href="product.html?id=${item.id}">
               <div class="p-4 rounded-2xl bg-white">
            <div class="w-full flex justify-end">
              <div

@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/css/main.css" />
+    <link rel="stylesheet" href="./src/css/custom.css" />
+  </head>
+  <body>
+    <!-- start  header -->
+    <header
+      class="header w-full flex flex-col justify-center items-center shadow-md"
+    >
+      <div class="w-[65%] flex py-2 justify-center items-center">
+        <!--start  icon header -->
+        <div class="w-[15%] flex items-center justify-start">
+          <a href="index.html">
+            <img
+              src="./public/images/logo.png"
+              alt="logo-header"
+              class="w-24"
+            />
+          </a>
+        </div>
+        <!--end  icon header -->
+        <!-- start center header  -->
+        <div class="flex w-[70%]">
+          <!-- start serch bar header -->
+          <div class="w-[45%] p-2 relative">
+            <input
+              type="text"
+              placeholder="جستجو محصولات"
+              class="bg-[#e4e4e4] pr-10 shadow-2xl border-0 outline-0 focus:scale-105 focus:bg-white font-shabnam-light transition ease-in duration-150 w-full p-2 rounded-2xl"
+            />
+            <img
+              src="./public/images/svg/search-icon.svg"
+              alt="search-icon"
+              class="w-5 h-5 absolute top-5 right-5"
+            />
+          </div>
+          <!-- end serch bar header -->
+          <!-- start navbar header -->
+          <div
+            class="navbarheader flex items-center justify-center gap-2 w-[50%] font-shabnam text-[#A8A8A8] text-[14px]"
+          ></div>
+          <!-- end navbar header -->
+        </div>
+        <!-- end center header  -->
+        <!-- start left header -->
+        <div class="flex items-center justify-center gap-2">
+          <!-- start Shopping Cart -->
+          <div
+            class="bg-white border-gray-400 shadow-md shadow-gray-400 cursor-pointer group rounded-2xl w-10 h-10 flex items-center justify-center"
+          >
+            <svg
+              class="fill-[#FE5F55] group-hover:fill-[#0A5ABD] transition ease-in"
+              height="20px"
+              width="20px"
+              version="1.1"
+              id="_x32_"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 512 512"
+              xml:space="preserve"
+            >
+              <g>
+                <path
+                  class="st0"
+                  d="M486.998,140.232c-8.924-12.176-22.722-19.878-37.785-21.078l-311.616-24.68l-5.665-32.094
+		c-5.179-29.305-28.497-51.998-57.932-56.352l-5.662-0.845L34.65,0.185c-9.385-1.378-18.118,5.09-19.51,14.475
+		c-1.395,9.393,5.086,18.127,14.471,19.514v-0.008l39.357,5.834l0.009,0.026c14.788,2.164,26.526,13.586,29.131,28.324
+		l53.338,302.302c5.005,28.375,29.647,49.047,58.461,49.056h219.192c9.49,0,17.176-7.694,17.176-17.172
+		c0-9.486-7.686-17.18-17.176-17.18H209.906c-12.133,0.009-22.536-8.725-24.642-20.672l-7.461-42.299h244.342
+		c24.189,0,45.174-16.691,50.606-40.262l22.967-99.523C499.118,167.887,495.93,152.424,486.998,140.232z"
+                />
+                <path
+                  class="st0"
+                  d="M223.012,438.122c-20.402,0-36.935,16.554-36.935,36.948c0,20.394,16.533,36.931,36.935,36.931
+		c20.401,0,36.944-16.537,36.944-36.931C259.955,454.676,243.413,438.122,223.012,438.122z"
+                />
+                <path
+                  class="st0"
+                  d="M387.124,438.122c-20.406,0-36.935,16.554-36.935,36.948c0,20.394,16.529,36.931,36.935,36.931
+		c20.402,0,36.944-16.537,36.944-36.931C424.068,454.676,407.526,438.122,387.124,438.122z"
+                />
+              </g>
+            </svg>
+          </div>
+          <!-- end Shopping Cart -->
+          <!-- start login and register -->
+          <div
+            class="flex items-center justify-center bg-[#0A5ABD] font-shabnam-medium p-2 text-white rounded-[10px]"
+          >
+            <a href="/register.html"> ورود و ثبت نام </a>
+          </div>
+          <!-- end login and register -->
+        </div>
+
+        <!-- end left header -->
+      </div>
+      <div class="w-[65%] mx-auto px-4">
+        <nav
+          id="navbarmenu"
+          class="w-full flex items-center justify-between h-[50px] relative"
+        ></nav>
+      </div>
+    </header>
+    <!-- end  header -->
+    <!-- start product container -->
+    <section class="w-full">
+      <div class="max-w-[65%] flex mx-auto mt-10">
+        <div
+          class="w-[30%] pb-40 border rounded-b-none border-gray-200 rounded-lg"
+        >
+          <img id="product-image" class="w-full p-6 gap-4" alt="عکس محصول" />
+        </div>
+        <div class="w-[70%]">
+          <!-- start top section  -->
+          <div
+            class="w-full border-b border-l border-t pt-6 rounded-lg rounded-b-none border-gray-200 pb-6"
+          >
+            <!-- start title  -->
+            <h2
+              id="product-title"
+              class="text-[20px] font-shabnam-medium mb-4"
+            ></h2>
+            <!-- end title  -->
+            <!-- start share | compare | ranks btns -->
+            <div
+              class="flex items-center justify-end font-shabnam-medium text-xs text-gray-500 px-4 gap-1"
+            >
+              <img src="./public/images/svg/share-icon.svg" alt="" />
+              <div>اشتراک گذاری</div>
+              <span class="h-4 border-l border-gray-300 mx-2"></span>
+              <img src="./public/images/svg/compare-icon.svg" alt="" />
+              <div>مقایسه محصول</div>
+            </div>
+            <!-- end share | compare | ranks btns -->
+          </div>
+          <!-- end top section  -->
+          <!-- start center section  -->
+          <div class="w-full">
+            <div class="flex p-6 border-b border-l border-gray-200">
+              <!-- start brand product -->
+              <div
+                class="w-1/2 text-gray-500 font-shabnam-medium text-[14px] flex items-center justify-start gap-4"
+              >
+                برنـــــد:
+                <div
+                  class="w-fit px-2 py-1 text-black border border-gray-300 rounded-full flex font-shabnam-medium text-[14px]"
+                >
+                  <div id="product-brand" class="flex"></div>
+                </div>
+              </div>
+              <!-- end brand product -->
+              <!-- start Category product -->
+              <div
+                class="w-1/2 text-gray-500 font-shabnam-medium text-[14px] flex items-center justify-start gap-4"
+              >
+                دسته بندی:
+                <div
+                  class="w-fit px-2 py-1 text-black border border-gray-300 rounded-full flex font-shabnam-medium text-[14px]"
+                >
+                  <a href="#"> پاور بانک و جامپ استار </a>
+                </div>
+              </div>
+              <!-- end Category product -->
+            </div>
+          </div>
+          <div class="w-full">
+            <div class="flex p-6 border-b border-l border-gray-200">
+              <!-- start Color product selection -->
+              <div
+                class="w-1/2 text-gray-500 font-shabnam-medium text-[14px] flex items-center justify-start gap-4"
+              >
+                انتخاب رنگ:
+                <div class="relative" id="color-dropdown-container">
+                  <button
+                    id="selected-color"
+                    class="flex items-center justify-center gap-2 px-3 py-1 border border-gray-300 rounded-lg cursor-pointer bg-white"
+                  >
+                    <span
+                      id="color-circle"
+                      class="w-4 h-4 rounded-full border border-gray-200"
+                    ></span>
+                    <span id="color-name" class="text-black text-sm"></span>
+                    <img src="./public/images/svg/drap-down.svg" alt="" />
+                  </button>
+                  <div
+                    id="color-options"
+                    class="absolute z-10 bg-white border border-gray-200 rounded-lg shadow-md hidden w-full"
+                  ></div>
+                </div>
+              </div>
+
+              <!-- end Color product selection -->
+              <!-- start waranty product -->
+              <div
+                class="w-1/2 text-gray-500 font-shabnam-medium text-[14px] flex items-center justify-start gap-4"
+              >
+                انتخاب گارانتی:
+                <div class="relative" id="waranty-dropdown-container">
+                  <button
+                    id="selected-waranty"
+                    class="flex items-center justify-center gap-2 px-3 py-1 border border-gray-300 rounded-lg cursor-pointer bg-white"
+                  >
+                    <span id="waranty-name" class="text-black text-sm"></span>
+                    <img src="./public/images/svg/drap-down.svg" alt="" />
+                  </button>
+                  <div
+                    id="waranty-options"
+                    class="absolute z-10 bg-white border border-gray-200 rounded-lg shadow-md hidden w-full"
+                  ></div>
+                </div>
+              </div>
+
+              <!-- end waranty product -->
+            </div>
+          </div>
+          <!-- end center section  -->
+          <!-- start bottom section  -->
+          <div
+            class="w-full flex justify-between p-4 border-l border-b border-gray-200 rounded-b"
+          >
+            <div
+              id="product-features"
+              class="text-black text-sm font-shabnam-light"
+            ></div>
+            <div class="price mt-16 mr-4 self-end">
+              <div class="bg-gray-100 border border-gray-300 rounded-lg w-56">
+                <div
+                  class="px-4 py-2 text-gray-500 font-shabnam-medium text-sm border-b border-gray-300"
+                >
+                  قیمت محصول:
+                </div>
+                <div class="p-4">
+                  <div id="price-product"></div>
+                  <div id="shopping-cart"></div>
+                  <div id="Let-me-know"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end bottom section  -->
+        </div>
+      </div>
+    </section>
+    <!-- end product container -->
+    <!-- start Reason for choosing access -->
+    <section class="w-full py-5">
+      <div class="max-w-[65%] mx-auto border rounded-lg border-gray-200">
+        <div class="flex">
+          <div class="w-1/4 flex items-center gap-2 flex-1 h-full p-4">
+            <img
+              class="w-12"
+              src="./public/images/choosing-dastresi/icon1.png"
+              alt=""
+            />
+            <div class="text-[#757586] font-shabnam-medium text-[15px]">
+              قیمت مناسب با بالاترین کیفیت
+            </div>
+          </div>
+          <div class="w-1/4 flex items-center gap-2 flex-1 h-full p-4">
+            <img
+              class="w-12"
+              src="./public/images/choosing-dastresi/icon2.png"
+              alt=""
+            />
+            <div class="text-[#757586] font-shabnam-medium text-[15px]">
+              مشاوره تخصصی برای خرید محصول
+            </div>
+          </div>
+          <div class="w-1/4 flex items-center gap-2 flex-1 h-full p-4">
+            <img
+              class="w-12"
+              src="./public/images/choosing-dastresi/icon3.png"
+              alt=""
+            />
+            <div class="text-[#757586] font-shabnam-medium text-[15px]">
+              ارسال سریع
+            </div>
+          </div>
+          <div class="w-1/4 flex items-center gap-2 flex-1 h-full p-4">
+            <img
+              class="w-12"
+              src="./public/images/choosing-dastresi/icon1.png"
+              alt=""
+            />
+            <div class="flex-1 text-[#757586] font-shabnam-medium text-[15px]">
+              قیمت مناسب با بالاترین کیفیت
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end Reason for choosing access -->
+    <!-- start Review -->
+    <section class="w-full">
+      <div class="max-w-[65%] mx-auto border border-gray-200 rounded-lg mb-5">
+        <div class="w-full border-b border-gray-200 p-3 px-3">
+          <span
+            class="border-b-2 border-[#0951AA] text-[#0951AA] font-shabnam-medium text-[16px] p-3"
+            >نقد و بررسی</span
+          >
+        </div>
+        <div id="product-review" class="leading-7 p-4"></div>
+      </div>
+    </section>
+    <!-- end Review -->
+    <!-- start Register a comment -->
+    <section class="w-full">
+      <div
+        class="max-w-[65%] mx-auto border border-gray-200 rounded-lg mb-40 p-4"
+      >
+        <form id="comment-form" method="post">
+          <!-- comment-->
+          <div class="my-4 flex gap-4">
+            <div class="w-auto flex-1">
+              <div class="relative z-0 w-full group bg-transparent">
+                <textarea
+                  id="comment"
+                  class="peer block py-1 p-2 w-full h-[143px] text-gray-800 bg-transparent border border-gray-300 focus:outline-none focus:border-blue-500 rounded-md resize-none"
+                  placeholder=" "
+                  rows="5"
+                ></textarea>
+                <label
+                  id="text-lable"
+                  for="comment"
+                  class="absolute origin-[100] px-2 text-sm font-shabnam-light text-gray-500 scale-75 top-3 transform duration-300 peer-focus:right-0 peer-focus:text-color peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 peer-focus:top-1 peer-focus:p-0"
+                  >متن دیدگاه شما</label
+                >
+              </div>
+            </div>
+            <!-- user inforamtion  -->
+            <div class="flex flex-col gap-4">
+              <div class="w-auto flex-1">
+                <div class="relative z-0 w-full group bg-transparent">
+                  <input
+                    id="name"
+                    class="peer py-1 p-2 w-full text-gray-800 bg-transparent border border-gray-300 focus:outline-none focus:border-color rounded-md"
+                    type="text"
+                    maxlength="255"
+                  />
+                  <label
+                    id="name-lable"
+                    for="name"
+                    class="absolute px-2 text-[18px] text-gray-500 duration-300 scale-75 top-7 -right-3 transform -translate-y-6 origin-[100] peer-focus:font-medium peer-focus:text-color peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-[57%] peer-focus:-translate-y-7 peer-focus:top-1 peer-focus:-right-5 peer-focus:p-0"
+                    >نام و نام‌خانوادگی</label
+                  >
+                </div>
+              </div>
+              <div class="w-auto flex-1">
+                <div class="relative z-0 w-full group bg-transparent">
+                  <input
+                    id="mobile"
+                    class="peer py-1 p-2 w-full text-gray-800 bg-transparent border border-gray-300 focus:outline-none focus:border-color rounded-md"
+                    type="text"
+                    maxlength="255"
+                  />
+                  <label
+                    id="mobile-lable"
+                    for="mobile"
+                    class="absolute px-2 text-[18px] text-gray-500 duration-300 scale-75 top-7 -right-3 transform -translate-y-6 origin-[100] peer-focus:font-medium peer-focus:text-color peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-[57%] peer-focus:-translate-y-7 peer-focus:top-1 peer-focus:-right-5 peer-focus:p-0"
+                    >شماره موبایل</label
+                  >
+                </div>
+              </div>
+              <div class="w-auto flex-1">
+                <div class="relative z-0 w-full group bg-transparent">
+                  <input
+                    id="email"
+                    class="peer py-1 p-2 w-full text-gray-800 bg-transparent border border-gray-300 focus:outline-none focus:border-color rounded-md"
+                    type="text"
+                    maxlength="255"
+                  />
+                  <label
+                    id="email-lable"
+                    for="email"
+                    class="absolute px-2 text-[18px] text-gray-500 duration-300 scale-75 top-7 right-0 transform -translate-y-6 origin-[100] peer-focus:font-medium peer-focus:text-color peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-[57%] peer-focus:-translate-y-7 peer-focus:top-1 peer-focus:-right-1 peer-focus:p-0"
+                    >ایمیل</label
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--user information -->
+          <!-- کپچا تصویری -->
+
+
+          <!-- دکمه ثبت -->
+          <div class="text-center">
+            <button
+              type="submit"
+              class="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition cursor-pointer"
+            >
+              ثبت دیدگاه
+            </button>
+          </div>
+
+          <!-- پیام موفقیت -->
+          <p id="successMessage" class="hidden text-green-600 text-center mt-4">
+            دیدگاه شما با موفقیت ثبت شد ✅
+          </p>
+        </form>
+      </div>
+    </section>
+    <!-- end Register a comment -->
+    <!-- start footer  -->
+    <!-- start footer -->
+    <footer class="w-full">
+      <!-- start top footer  -->
+      <div class="w-full bg-[#E2E2E2]">
+        <div
+          class="max-w-[65%] text-[#867778] mx-auto flex font-shabnam-medium text-[14px] justify-between items-center px-4 py-8"
+        >
+          <div><span> ۰۲۱-۳۳۹۰۲۶۴۶ </span></div>
+          <div>
+            <span
+              >شنبه تا چهارشنبه از ساعت ۱۰ صبح الی ساعت ۱۸ پنجشنبه ها از ۱۰ صبح
+              الی ساعت ۱۶</span
+            >
+          </div>
+          <div>
+            <span
+              >تهران - میدان امام خمینی - پاساژ لباف - همکف - پلاک ۳ - فروشگاه
+              بدیع</span
+            >
+          </div>
+          <a href="#">
+            <div
+              class="flex items-center justify-center gap-5 border border-gray-200 rounded-lg shadow-md bg-white py-3 px-2 font-shabnam-light text-[12px]"
+            >
+              <span>برو بالا</span>
+              <img src="./public/images/svg/arrow-up.svg" alt="" />
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- end top footer  -->
+      <!-- start center footer  -->
+      <div class="max-w-[65%] mx-auto flex gap-8 py-8 px-4">
+        <div class="w-[15%] flex flex-col items-center justify-center gap-8">
+          <img src="./public/images/logo.png" alt="" class="max-w-[190px]" />
+          <div class="flex flex-wrap justify-center gap-4">
+            با ما در ارتباط باشید:
+            <img src="./public/images/instagram.png" alt="" />
+          </div>
+        </div>
+        <div class="w-[60%]">
+          <h2 class="text-2xl font-shabnam-medium font-bold mb-4">
+            فروشگاه اینترنتی دسترسی
+          </h2>
+          <p class="text-[#6F6F67] text-[14px] font-shabnam-medium leading-7">
+            فروشگاه دسترسی فعالیت خود را از سال 1389 به صورت فروش فیزیکی کالا در
+            حوزه لوازم جانبی کامپیوتر و موبایل در تهران شروع کرد و از سال 1398
+            از طریق پیج اینستاگرام وارد فروش آنلاین شد و به خاطر ارائه کالای
+            اصلی و مشاوره های دقیق در بازه بسیار کوتاهی توانست اعتماد بسیاری از
+            مشتریانش را جلب کند و سرانجام در سال 1399 فروش از طریق سایت را هم به
+            فعالیت های خود اضافه کرد تا اینکه بتواند با بررسی دقیق کالاها انتخاب
+            صحیح شما را به ارمغان آورد. و امروز دسترسی فعالیت خود را در زمینه
+            آداپتور موبایل، کابل شارژ، پاوربانک، ساعت هوشمند، هندزفری و هدست،
+            لوازم گیمینگ، باتری و شارژر، لوازم شبکه، تجهیزات ذخیره سازی، گیرنده
+            دیجیتال و هزاران گجت جذاب ادامه میدهد.
+          </p>
+        </div>
+        <div class="w-[15%] flex flex-col font-shabnam-light font-bold">
+          <h3 class="font-shabnam-medium text-[20px] mb-4 text-right">
+            دسترسی سریع
+          </h3>
+          <div class="flex flex-col">
+            <a href="#" class="text-[#6F6F67] text-[14px] hover:text-black mb-4"
+              >باشگاه مشتریان</a
+            >
+            <a href="#" class="text-[#6F6F67] text-[14px] hover:text-black mb-4"
+              >سوالات متداول</a
+            >
+            <a href="#" class="text-[#6F6F67] text-[14px] hover:text-black mb-4"
+              >بلاگ</a
+            >
+            <a href="#" class="text-[#6F6F67] text-[14px] hover:text-black mb-4"
+              >شرایط و قوانین</a
+            >
+            <a href="#" class="text-[#6F6F67] text-[14px] hover:text-black mb-4"
+              >ارتباط با ما</a
+            >
+            <a href="#" class="text-[#6F6F67] text-[14px] hover:text-black mb-4"
+              >درباره ما</a
+            >
+          </div>
+        </div>
+        <div class="w-[15%] flex items-center justify-center">
+          <img src="./public/images/enamd-logo.png" alt="" />
+        </div>
+      </div>
+      <!-- end center footer  -->
+      <!-- start bottom footer -->
+      <div class="w-full bg-[#0A5ABD]">
+        <div
+          class="max-w-[65%] mx-auto font-shabnam-medium text-center text-white py-3"
+        >
+          تمامی حقوق این سایت محفوظ و متعلق به فروشگاه اینترنتی دسترسی می‌باشد.
+        </div>
+      </div>
+      <!-- start bottom footer -->
+    </footer>
+    <!-- end footer -->
+    <!-- end footer  -->
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+    <script type="module" src="./src/js/product.js"></script>
+    <script></script>
+  </body>
+</html>
