@@ -26,301 +26,449 @@
       "id": 1,
       "title": "خانه",
       "slug": "home",
+      "parentId": null,
       "children": []
     },
     {
       "id": 2,
       "title": "لوازم جانبی موبایل و کامپیوتر",
       "slug": "mobile-computer-accessories",
+      "parentId": null,
       "children": [
         {
-          "id": 1,
-          "title": "هولدر و نگهدارنده",
-          "slug": "Holder-and-retainer"
-        },
-        {
-          "id": 2,
-          "title": "تجهیزات ذخیره سازی",
-          "slug": "Storage-equipment",
-          "children": [
-            { "id": 1, "title": "فلش مموری", "slug": "memory-flash" },
-            { "id": 2, "title": "کارت حافظه", "slug": "Memory-card" },
-            { "id": 3, "title": "هارد اکسترنال", "slug": "External-hard-drive" }
-          ]
-        },
-        {
           "id": 3,
-          "title": "ماوس و کیبود و پدموس",
-          "slug": "Mouse-keyboard-mousepad"
+          "title": "هولدر و نگهدارنده",
+          "slug": "holder-and-retainer",
+          "parentId": 2,
+          "children": []
         },
         {
           "id": 4,
-          "title": "هندزفری و هدست,میکروفون",
-          "slug": "headset-microphone",
+          "title": "تجهیزات ذخیره سازی",
+          "slug": "storage-equipment",
+          "parentId": 2,
           "children": [
             {
-              "id": 1,
-              "title": "میکروفون",
-              "slug": "microphone"
-            },
-            {
-              "id": 2,
-              "title": "هندزفری سیم دار",
-              "slug": "hansfree"
-            },
-            {
-              "id": 3,
-              "title": "هدست سیم دار",
-              "slug": "headest"
-            },
-            {
-              "id": 4,
-              "title": "هدفون بلوتوث",
-              "slug": "headphone-bluetooth"
-            },
-            {
               "id": 5,
-              "title": "هندزفری بلوتوث دو گوش",
-              "slug": "hansfree-bluetooth-twoears"
+              "title": "فلش مموری",
+              "slug": "memory-flash",
+              "parentId": 4,
+              "children": []
             },
             {
               "id": 6,
-              "title": "هندزفری بلوتوث دورگردنی",
-              "slug": "hansfree-bluetooth-Neckcircumference"
+              "title": "کارت حافظه",
+              "slug": "memory-card",
+              "parentId": 4,
+              "children": []
             },
             {
               "id": 7,
-              "title": "هندزفری بلوتوث تک گوش",
-              "slug": "hansfree-bluetooth-oneears"
+              "title": "هارد اکسترنال",
+              "slug": "external-hard-drive",
+              "parentId": 4,
+              "children": []
             }
           ]
         },
-        { "id": 6, "title": "پاور بانک و جامپ استارتر", "slug": "powerbank" },
         {
-          "id": 7,
-          "title": "کابل شارژ",
-          "slug": "Charging-cable",
-          "children": [
-            {
-              "id": 1,
-              "title": "کابل شارژ تایپ سی ",
-              "slug": "Charging-cable-type-c"
-            },
-            {
-              "id": 2,
-              "title": "کابل شارژ لایتینگ",
-              "slug": "Charging-cable-lighthing"
-            },
-            {
-              "id": 3,
-              "title": "کابل شارژ دو سر تایپ سی",
-              "slug": "Charging-cable-type-c"
-            },
-            {
-              "id": 4,
-              "title": "کابل شارژ ایفون",
-              "slug": "Charging-cable-iphone"
-            },
-            {
-              "id": 5,
-              "title": "کابل شارژ سامسونگ",
-              "slug": "Charging-cable-samsung"
-            }
-          ]
+          "id": 8,
+          "title": "ماوس و کیبود و پدموس",
+          "slug": "mouse-keyboard-mousepad",
+          "parentId": 2,
+          "children": []
         },
-        { "id": 8, "title": "آداپتور شارژر", "slug": "Charger-adapter" },
         {
           "id": 9,
+          "title": "هندزفری و هدست ، میکروفون",
+          "slug": "headset-microphone",
+          "parentId": 2,
+          "children": [
+            {
+              "id": 10,
+              "title": "میکروفون",
+              "slug": "microphone",
+              "parentId": 9,
+              "children": []
+            },
+            {
+              "id": 11,
+              "title": "هندزفری سیم دار",
+              "slug": "handsfree",
+              "parentId": 9,
+              "children": []
+            },
+            {
+              "id": 12,
+              "title": "هدست سیم دار",
+              "slug": "headset",
+              "parentId": 9,
+              "children": []
+            },
+            {
+              "id": 13,
+              "title": "هدفون بلوتوث",
+              "slug": "headphone-bluetooth",
+              "parentId": 9,
+              "children": []
+            },
+            {
+              "id": 14,
+              "title": "هندزفری بلوتوث دو گوش",
+              "slug": "handsfree-bluetooth-twoears",
+              "parentId": 9,
+              "children": []
+            },
+            {
+              "id": 15,
+              "title": "هندزفری بلوتوث دورگردنی",
+              "slug": "handsfree-bluetooth-Neckcircumference",
+              "parentId": 9,
+              "children": []
+            },
+            {
+              "id": 16,
+              "title": "هندزفری بلوتوث تک گوش",
+              "slug": "handsfree-bluetooth-oneears",
+              "parentId": 9,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "title": "پاور بانک و جامپ استارتر",
+          "slug": "powerbank",
+          "parentId": 2,
+          "children": []
+        },
+        {
+          "id": 18,
+          "title": "کابل شارژ",
+          "slug": "charging-cable",
+          "parentId": 2,
+          "children": [
+            {
+              "id": 19,
+              "title": "کابل شارژ تایپ سی ",
+              "slug": "charging-cable-type-c",
+              "parentId": 18,
+              "children": []
+            },
+            {
+              "id": 20,
+              "title": "کابل شارژ لایتینگ",
+              "slug": "charging-cable-lightning",
+              "parentId": 18,
+              "children": []
+            },
+            {
+              "id": 21,
+              "title": "کابل شارژ دو سر تایپ سی",
+              "slug": "double-ended-Type-C-charging-cable",
+              "parentId": 18,
+              "children": []
+            },
+            {
+              "id": 22,
+              "title": "کابل شارژ ایفون",
+              "slug": "charging-cable-iphone",
+              "parentId": 18,
+              "children": []
+            },
+            {
+              "id": 23,
+              "title": "کابل شارژ سامسونگ",
+              "slug": "charging-cable-samsung",
+              "parentId": 18,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "title": "آداپتور شارژر",
+          "slug": "charger-adapter",
+          "parentId": 2,
+          "children": []
+        },
+        {
+          "id": 25,
           "title": "دسته بازی و خنک کننده موبایل",
-          "slug": "gamepad-mobilecooling"
+          "slug": "gamepad-mobilecooling",
+          "parentId": 2,
+          "children": []
         },
-        { "id": 10, "title": "انواع تبدیل برق", "slug": "" },
         {
-          "id": 11,
+          "id": 26,
+          "title": "انواع تبدیل برق",
+          "slug": "types-of-power-conversion",
+          "parentId": 2,
+          "children": []
+        },
+        {
+          "id": 27,
           "title": "کابل و دانگل انتقال تصویر",
-          "slug": "cable-dongle"
+          "slug": "cable-dongle",
+          "parentId": 2,
+          "children": []
         },
-        { "id": 12, "title": "انواع هاب", "slug": "hubs" },
         {
-          "id": 13,
+          "id": 28,
+          "title": "انواع هاب",
+          "slug": "hubs",
+          "parentId": 2,
+          "children": []
+        },
+        {
+          "id": 29,
           "title": "فن خننک کننده کامپیوتر",
-          "slug": "campouter-cooling"
+          "slug": "computer-cooling",
+          "parentId": 2,
+          "children": []
         },
-        { "id": 14, "title": "قاب و گلس", "slug": "frame" }
+        {
+          "id": 30,
+          "title": "قاب و گلس",
+          "slug": "frame",
+          "parentId": 2,
+          "children": []
+        }
       ]
     },
     {
-      "id": 3,
+      "id": 31,
       "title": "کابل-مبدل-رابط",
-      "slug": "cable-Converter-interface",
+      "slug": "cable-converter-interface",
+      "parentId": null,
       "children": [
         {
-          "id": 1,
+          "id": 32,
           "title": "کابل hdmi",
-          "slug": ""
+          "slug": "cable-hdmi",
+          "parentId": 31,
+          "children": []
         },
         {
-          "id": 2,
+          "id": 33,
           "title": "کابل پرینتر",
-          "slug": "printer-cable"
+          "slug": "printer-cable",
+          "parentId": 31,
+          "children": []
         },
         {
-          "id": 3,
+          "id": 34,
           "title": "کابل هارد اکسترنال",
-          "slug": "external-hard-cable"
+          "slug": "external-hard-cable",
+          "parentId": 31,
+          "children": []
         },
         {
-          "id": 4,
+          "id": 35,
           "title": "انواع رابط و تبدیل",
-          "slug": "Types-interfaces-conversions"
+          "slug": "types-interfaces-conversions",
+          "parentId": 31,
+          "children": []
         },
         {
-          "id": 5,
+          "id": 36,
           "title": "کابل aux",
-          "slug": "aux-cable"
+          "slug": "aux-cable",
+          "parentId": 31,
+          "children": []
         },
         {
-          "id": 6,
+          "id": 37,
           "title": "کابل 2 به 1 صدا",
-          "slug": "audio-cable"
+          "slug": "audio-cable",
+          "parentId": 31,
+          "children": []
         },
         {
-          "id": 7,
+          "id": 38,
           "title": "کابل اپتیکال",
-          "slug": "Optical cable"
+          "slug": "optical-cable",
+          "parentId": 31,
+          "children": []
         },
         {
-          "id": 8,
+          "id": 39,
           "title": "کابل و فیش otg",
-          "slug": "otg-cable"
+          "slug": "otg-cable",
+          "parentId": 31,
+          "children": []
         }
       ]
     },
     {
-      "id": 4,
+      "id": 40,
       "title": "لوازم تولید محتوا",
-      "slug": "Content-production-equipment",
+      "slug": "content-production-equipment",
+      "parentId": null,
       "children": [
         {
-          "id": 1,
+          "id": 41,
           "title": "میکروفون",
-          "slug": "microphone"
+          "slug": "microphone",
+          "parentId": 40,
+          "children": []
         },
         {
-          "id": 2,
+          "id": 42,
           "title": "رینگ لایت و پایه",
-          "slug": "ring-light"
+          "slug": "ring-light",
+          "parentId": 40,
+          "children": []
         }
       ]
     },
     {
-      "id": 5,
+      "id": 43,
       "title": "لوازم شبکه",
-      "slug": "Networking-Equipment",
+      "slug": "networking-equipment",
+      "parentId": null,
       "children": [
         {
-          "id": 1,
+          "id": 44,
           "title": "مودم - روتر",
-          "slug": "Modem router"
+          "slug": "modem-router",
+          "parentId": 43,
+          "children": []
         },
         {
-          "id": 2,
+          "id": 45,
           "title": "هاب شبکه",
-          "slug": "Networking-hub"
+          "slug": "networking-hub",
+          "parentId": 43,
+          "children": []
         },
         {
-          "id": 3,
+          "id": 46,
           "title": "مودم همراه",
-          "slug": "Mobile modem"
+          "slug": "mobile-modem",
+          "parentId": 43,
+          "children": []
         },
         {
-          "id": 4,
+          "id": 47,
           "title": "لوازم جانبی",
-          "slug": "Accessories"
+          "slug": "accessories",
+          "parentId": 43,
+          "children": []
         }
       ]
     },
     {
-      "id": 6,
+      "id": 48,
       "title": "کنسول بازی و لوازم جانبی",
-      "slug": "Gameconsole-accessories",
+      "slug": "gameconsole-accessories",
+      "parentId": null,
       "children": [
         {
-          "id": 1,
+          "id": 49,
           "title": "هندزفری و هدست",
-          "slug": "Handsfree-headset"
+          "slug": "handsfree-headset",
+          "parentId": 48,
+          "children": []
         },
         {
-          "id": 2,
+          "id": 50,
           "title": "دسته بازی",
-          "slug": "Game-group"
+          "slug": "game-group",
+          "parentId": 48,
+          "children": []
         },
         {
-          "id": 3,
+          "id": 51,
           "title": "موس و کیبورد",
-          "slug": "Mouse-keyboard"
+          "slug": "mouse-keyboard",
+          "parentId": 48,
+          "children": []
         },
         {
-          "id": 4,
+          "id": 52,
           "title": "کیف",
-          "slug": "bag"
+          "slug": "bag",
+          "parentId": 48,
+          "children": []
         },
         {
-          "id": 5,
+          "id": 53,
           "title": "کنسول",
-          "slug": "console"
+          "slug": "console",
+          "parentId": 48,
+          "children": []
         },
         {
-          "id": 6,
+          "id": 54,
           "title": "شارژر دسته بازی",
-          "slug": "cable-gamegroup"
+          "slug": "gamepad-charger",
+          "parentId": 48,
+          "children": []
         }
       ]
     },
     {
-      "id": 7,
+      "id": 55,
       "title": "لوازم خانگی و شخصی",
-      "slug": "Household-personal-appliances",
+      "slug": "household-personal-appliances",
+      "parentId": null,
       "children": [
         {
-          "id": 1,
+          "id": 56,
           "title": "انواع گجت های جذاب",
-          "slug": "All-kinds-gadgets"
+          "slug": "all-kinds-gadgets",
+          "parentId": 55,
+          "children": []
         },
         {
-          "id": 2,
+          "id": 57,
           "title": "باتری و شارژر",
-          "slug": "Battery-charger"
+          "slug": "battery-charger",
+          "parentId": 55,
+          "children": []
         },
         {
-          "id": 3,
+          "id": 58,
           "title": "اندروید باکس و گیرنده دیجیتال",
-          "slug": "Android-Box-Digital-Receiver"
+          "slug": "android-box-digital-receiver",
+          "parentId": 55,
+          "children": []
         },
         {
-          "id": 4,
+          "id": 59,
           "title": "آنتن رومیزی",
-          "slug": "Desktop-anten"
+          "slug": "desktop-antenna",
+          "parentId": 55,
+          "children": []
         },
         {
-          "id": 5,
+          "id": 60,
           "title": "مچ بند و ساعت بند هوشمند",
-          "slug": "Wristband-smartwatch"
+          "slug": "wristband-smartwatch",
+          "parentId": 55,
+          "children": []
         },
         {
-          "id": 6,
+          "id": 61,
           "title": "محصولات کمبو",
-          "slug": "Combo-products"
+          "slug": "combo-products",
+          "parentId": 55,
+          "children": []
         },
         {
-          "id": 7,
+          "id": 62,
           "title": "رابط برق و usb",
-          "slug": "usb-cable"
+          "slug": "usb-cable",
+          "parentId": 55,
+          "children": []
         },
         {
-          "id": 8,
+          "id": 63,
           "title": "ام اف پلیر",
-          "slug": "mf-player"
+          "slug": "mf-player",
+          "parentId": 55,
+          "children": []
         }
       ]
     }
@@ -632,7 +780,7 @@
       "count": 0,
       "warantys": ["مهلت تست  ۳ روزه"],
       "slug": "Anker-B2348",
-        "category": "شارژر دیواری",
+      "category": "شارژر دیواری",
       "features": [
         "2 پورت خروجی ( تایپ سی و USB-A )",
         "دارای فناوری IQ3",
