@@ -72,6 +72,13 @@
           ]
         },
         {
+          "id": 59,
+          "title": "اسپیکر",
+          "slug": "speaker",
+          "parentId": "2",
+          "children": []
+        },
+        {
           "id": 8,
           "title": "ماوس و کیبود و پدموس",
           "slug": "mouse-keyboard-mousepad",
@@ -163,6 +170,13 @@
               "children": []
             },
             {
+              "id": 70,
+              "title": "کابل شارژر تایپ سی به لایتنینگ",
+              "slug": "Type-C-Lightning-Charger-Cable",
+              "parentId": 18,
+              "children": []
+            },
+            {
               "id": 21,
               "title": "کابل شارژ دو سر تایپ سی",
               "slug": "double-ended-Type-C-charging-cable",
@@ -182,6 +196,20 @@
               "slug": "charging-cable-samsung",
               "parentId": 18,
               "children": []
+            },
+            {
+              "id": 60,
+              "title": "کابل شارژر میکرو یو اس بی",
+              "slug": "charging-cable-micro-usb",
+              "parentId": 18,
+              "children": []
+            },
+            {
+              "id": 61,
+              "title": "کابل شارژ سه کاره",
+              "slug": "charging-cable-three",
+              "parentId": 18,
+              "children": []
             }
           ]
         },
@@ -190,7 +218,29 @@
           "title": "آداپتور شارژر",
           "slug": "charger-adapter",
           "parentId": 2,
-          "children": []
+          "children": [
+            {
+              "id": 63,
+              "title": "شارژر دیواری",
+              "slug": "Wall-charger",
+              "parentId": 24,
+              "children": []
+            },
+            {
+              "id": 64,
+              "title": "شارژر وایرلس",
+              "slug": "Wireless charger",
+              "parentId": 24,
+              "children": []
+            },
+            {
+              "id": 65,
+              "title": "شارژر رومیزی",
+              "slug": "Desktop-charger",
+              "parentId": 24,
+              "children": []
+            }
+          ]
         },
         {
           "id": 25,
@@ -422,6 +472,13 @@
           "children": []
         },
         {
+          "id": 73,
+          "title": "جویسر",
+          "slug": "joiser",
+          "parentId": 55,
+          "children": []
+        },
+        {
           "id": 57,
           "title": "باتری و شارژر",
           "slug": "battery-charger",
@@ -627,7 +684,7 @@
       "count": 8,
       "warantys": ["مهلت تست  ۳ روزه"],
       "slug": "Oraimo OPB727SQ",
-      "category": "پاوربانک و جامپ استارتر",
+      "category": "پاور بانک و جامپ استارتر",
       "features": [
         "3 پورت خروجی ( 2 پورت تایپ سی ، USB-A )",
         "دارای فناوری PD و QC3.0",
@@ -648,7 +705,7 @@
       "count": 1,
       "warantys": ["مهلت تست  ۳ روزه"],
       "slug": "Powerology-PPBCHA77",
-      "category": "پاوربانک و جامپ استارتر",
+      "category": "پاور بانک و جامپ استارتر",
       "features": [
         "دارای پنل سولار",
         "ظرفیت باتری 27000 میلی آمپر",
@@ -671,7 +728,7 @@
       "count": 4,
       "warantys": ["مهلت تست  ۳ روزه"],
       "slug": "Ldnio-SE3338",
-      "category": "رابط برق و USB",
+      "category": "رابط برق و usb",
       "features": [
         "توان خروجی 65 وات",
         "3 پورت AC",
@@ -716,7 +773,7 @@
       "count": 2,
       "warantys": ["مهلت تست  ۳ روزه"],
       "slug": "Mcdodo-CA-2010",
-      "category": "کابل شارژ تایپ سی به لایتنینگ",
+      "category": "کابل شارژر تایپ سی به لایتنینگ",
       "features": [
         "کابل شارژ تایپ سی به لایتنینگ",
         "توان خروجی 36 وات",
