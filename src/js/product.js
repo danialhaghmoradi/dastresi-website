@@ -50,7 +50,26 @@ const loadProductDetails = async () => {
     const res = await axios.get(`http://localhost:3004/products/${productId}`);
     const product = res.data;
 
-    // برند
+
+    //breadcrumb update
+    const categoryName = product.category;
+    const productName = product.name;
+
+    // update category link
+    const breadcrumbCatEl = document.getElementById("breadcrumb-category");
+    if (breadcrumbCatEl) {
+      const encoded = encodeURIComponent(categoryName);
+      breadcrumbCatEl.innerText = categoryName;
+      breadcrumbCatEl.href = `category.html?name=${encoded}`;
+    }
+
+    // update section product
+    const breadcrumbProdEl = document.getElementById("breadcrumb-product");
+    if (breadcrumbProdEl) {
+      breadcrumbProdEl.innerText = productName;
+    }
+
+    // brand
     const persianBrand = product.brand[0];
     const englishBrand = product.brand[1];
     document.title = product.name;
@@ -63,12 +82,12 @@ const loadProductDetails = async () => {
       `;
     }
 
-    // تصویر و عنوان
+    // image and title
     document.getElementById("product-image").src = product.image;
     document.getElementById("product-image").alt = product.name;
     document.getElementById("product-title").innerText = product.name;
 
-    // رنگ‌ها
+    // colors
     const colors = product.colors;
     if (colors && colors.length > 0) {
       updateSelectedColor(colors[0]);
