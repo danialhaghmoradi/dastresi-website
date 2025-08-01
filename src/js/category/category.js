@@ -18,6 +18,7 @@ const loadCategoryPage = async () => {
     );
     const products = res.data;
     const container = document.getElementById("products-container");
+    let priceSection = "";
 
     if (products.length === 0) {
       container.innerHTML = `
@@ -29,12 +30,24 @@ const loadCategoryPage = async () => {
 
     const html = products
       .map((item) => {
-        const priceSection = `
-          <div class="font-shabnam-medium flex items-center justify-end gap-2 text-[20px] text-[#0951AA] pt-5 text-end">
-            ${toPersianDigits(item.price)}
-            <span class="text-[18px] text-[#828282]">تومان</span>
-          </div>
-        `;
+        if (item.isDiscounted === true) {
+          priceSection = `
+            <div class="font-shabnam-medium text-[14px] line-through text-[#828282] text-end">
+              ${toPersianDigits(item.price)}
+            </div>
+            <div class="font-shabnam-medium flex items-center justify-end gap-2 text-[20px] text-[#0951AA] text-end">
+              ${toPersianDigits(item.price - item.discountPrice)}
+              <span class="text-[18px] text-[#828282]">تومان</span>
+            </div>
+          `;
+        } else {
+          priceSection = `
+               <div class="font-shabnam-medium flex items-center justify-end gap-2 text-[20px] text-[#0951AA] pt-5 text-end">
+                 ${toPersianDigits(item.price)}
+                 <span class="text-[18px] text-[#828282]">تومان</span>
+               </div>
+             `;
+        }
 
         return `
           <div class="swiper-slide rounded-2xl shadow-2xl">
