@@ -845,6 +845,27 @@
         "پشتیبانی از فست شارژ",
         "دارای کابل دوسر تایپ سی 1.5 متری"
       ]
+    },
+    {
+      "id": 14,
+      "name": "کیبورد بلوتوثی مافی مدل Mofii Phoenix",
+      "price": 2590000,
+      "discountPrice": 200000,
+      "isDiscounted": true,
+      "colors": ["black"],
+      "brand": ["بدون برند", "No Name"],
+      "createdAt": "2025-06-16T00:00:00Z",
+      "image": "/images/products/Mofii-Phoenix.png",
+      "count": 0,
+      "warantys": ["مهلت تست  ۳ روزه"],
+      "slug": "Anker-B2348",
+      "category": "ماوس و کیبود و پدموس",
+      "features": [
+        "اتصال بلوتوثی",
+        "سایز 22*133*322 میلی متر",
+        "پشتیبانی از فست شارژ",
+        "87 کیلیده"
+      ]
     }
   ],
   "sliderCategories": [
